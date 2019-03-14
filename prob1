@@ -1,0 +1,45 @@
+// This is a program that calculates the total ticket sale after each game.
+
+// There are four types of tickets:
+// box, sideline, premium, and general admission
+
+#include <iostream>
+#include <conio.h>
+#include <string>
+using namespace std;
+
+int main()
+{
+	string ticketPrice, numberOfTicketsSold;
+	char boxp, sidelinep, premiump, generaladmissionp; 
+	int  boxts, sidelinets, premiumts, generaladmissionts;
+
+	ticketPrice = ticketPrice;
+	numberOfTicketsSold = numberOfTicketsSold;
+	
+	boxp = 250;
+	sidelinep = 100;
+	premiump = 50;
+	generaladmissionp = 25;
+	
+	boxts = 5750;
+	sidelinets = 28000;
+	premiumts = 35750;
+	generaladmissionts = 18750;
+
+	cout << "ticketPrice ";
+	cout << "numberOfTicketsSold " << endl;
+	cout << "250         ";
+	cout << "5750" << endl;
+	cout << "100         ";
+	cout << "28000" << endl;
+	cout << "50         ";
+	cout << "35750" << endl;
+	cout << "25         ";
+	cout << "18750" << endl;
+
+	                      
+	         
+	_getch();
+	return 0;
+}
